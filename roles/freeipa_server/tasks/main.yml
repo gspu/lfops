@@ -1,0 +1,8 @@
+- block:
+
+  - name: 'Use freeipa.ansible_freeipa.ipaserver role to install and configure FreeIPA as a server'
+    include_role:
+      name: 'freeipa.ansible_freeipa.ipaserver'
+
+  tags:
+    - 'freeipa_server'
